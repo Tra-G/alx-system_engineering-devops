@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 3 /etc/passwd | tail -n 1
+cat ./iacta | tail --lines=+3 | head -1
